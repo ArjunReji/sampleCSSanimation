@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>CSS Animations</h1>
+    <nav id="nav_bar">
+      <ul>
+        <li><a href="#fade">fade</a></li>
+        <li><a href="#slideIn">slideIn</a></li>
+        <li><a href="#bounce">bounce</a></li>
+        <li><a href="#rotate">rotate</a></li>
+        <li><a href="#pulse">pulse</a></li>
+        <li><a href="#colorChange">colour change</a></li>
+        <li><a href="#shake">shake</a></li>
+        <li><a href="#zoom">zoom</a></li>
+        <li><a href="#typing">typing</a></li>
+        <li><a href="#flip">flip</a></li>
+        <li><a href="#wave">wave</a></li>
+        <li><a href="#rotCube">rotating cube</a></li>
+        <li><a href="#animScene">animated scene</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="animationExamples">
+
+    <section id="fade" class="fade image-container">
+      <h3>fade</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>The image fades in and out with an opacity change.</p>
+    </section>
+
+    <section id="slideIn" class="slideIn image-container">
+      <h3>slide in</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>The image starts off the screen (on the left) and slides in to its normal position.</p>
+    </section>
+
+    <section id="bounce" class="bounce image-container">
+      <h3>bounce</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>The image bounces up and down in a rhythmic pattern.</p>
+    </section>
+
+    <section id="rotate" class="rotate image-container">
+      <h3>rotate</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>The image rotates continuously in a full circle.</p>
+    </section>
+
+    <section id="pulse" class="pulse image-container">
+      <h3>pulse effect</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>The image smoothly grows and shrinks, giving it a pulsing effect.</p>
+    </section>
+
+    <section id="colorChange" class="colorChange image-container">
+      <h3>colour change</h3>
+      <p>The div smoothly changes colors over a period of time.</p>
+    </section>
+
+    <section id="shake" class="shake image-container">
+      <h3>shake</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>The image shakes back and forth, commonly used to draw attention.</p>
+    </section>
+
+    <section id="zoom" class="zoom image-container">
+      <h3>zoom</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>The image zooms in and becomes visible over the course of the animation.</p>
+    </section>
+
+    <section id="typing" class="image-container">
+      <h3>typing</h3>
+      <div class="typing">Hello I am Typing</div>
+      <p>This animation mimics the effect of text being typed out</p>
+    </section>
+    
+    <section id="flip" class="image-container">
+      <h3>flip</h3>
+      <div class="flip-container">
+        <div class="flip-card">
+          <div class="flip-front"></div>
+          <div class="flip-back"></div>
+        </div>
+      </div>
+        <p>this animation flips the div on hovering</p>
+      </section>
+
+    <section id="wave" class="wave image-container">
+      <h3>wave</h3>
+      <img src="./media/image.jfif" alt="">
+      <p>This creates a smooth wave animation on an image</p>
+    </section>
+</div>
+    <h3 style="text-align: center;"><u>rotating cube</u></h3>
+    
+    <section id="rotCube" class="cube_container">
+      <div class="cube">
+        <div class="front">
+          <img style="height: 100%; width: 100%;" src="./media/image.jfif" alt="">
+        </div>
+        <div class="back"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="top"></div>
+        <div class="bottom"></div>
+      </div>
+    </section>
+
+
+
+  <h3 id="animScene" style="text-align: center;">animated scenery</h3>
+  <div class="sky">
+    <div class="sundiv">
+      <img id="sun" class="theSun" src="./media/sun-removebg-preview.png" alt="">
+    </div>
+  </div>
+  <div class="grass">
+    <img src="./media/house-removebg-preview.png" alt="">
+    <div class="buttons">
+      <button id="carFast">hover to make car move</button>
+      <button class="night" id="nightOrDay">toggle Night or Day</button>
+    </div>
+    <div class="moonDiv">
+      <img id="moon" src="./media/moon.png" alt="">
+    </div>
+  </div>
+  <div class="road">
+    <div class="inner_road">
+      <img id="car" src="./media/car-removebg-preview.png" alt="">
+      <div class="lines"></div>
+    </div>
+
+  </div>
+  <footer>
+  <section id="contact">
+      <h1 style="text-align: center;">CONTACT</h1>
+    <div class="icon_set">
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-instagram fa-beat"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-linkedin fa-beat"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-facebook fa-beat"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-twitter fa-beat"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-telegram fa-beat"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-threads fa-beat"></i></a>
+      </div>
+    </div>
+  </section>
+    <p>&#169; My Design 2025 All Rights Reserved &#174; Arjun Reji</p>
+    <div class="up_arrow">
+      <a href="#nav_bar">
+        <i class="fa-solid fa-arrow-up fa-2x"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    const sunimage = document.querySelector('.theSun')
+    const image = document.getElementById('car');
+    const image2 = document.getElementById('moon');
+    const container = document.querySelector('.sky');
+    const grasscolor = document.querySelector('.grass');
+    const button1 = document.getElementById('carFast');
+    const button2 = document.getElementById('nightOrDay');
+
+    button1.addEventListener('mouseenter', function () {
+      button1.style.backgroundColor = 'darkgrey'
+      image.classList.add('move');
+    });
+
+    button1.addEventListener('mouseleave', function () {
+      button1.style.backgroundColor = "blue"
+      image.classList.remove('move');
+    });
+
+    let moonVisibility = true;
+
+    button2.addEventListener('click', function () {
+      if (moonVisibility) {
+
+        button2.style.backgroundColor = 'darkgrey'
+        image2.classList.add('moveUp')
+        container.style.backgroundColor = 'rgb(9, 13, 54)'
+        grasscolor.style.backgroundColor = 'rgb(12, 65, 12)'
+      }
+      else {
+        button2.style.backgroundColor = 'blue'
+        image2.classList.remove('moveUp')
+        container.style.backgroundColor = 'rgb(22, 152, 196)'
+        grasscolor.style.backgroundColor = 'green'
+      }
+      moonVisibility = !moonVisibility;
+    })
+
+  </script>
+
+
+</body>
+
+</html>
