@@ -571,11 +571,21 @@ html{
       opacity: 1;
     }
   
-  
     100% {
       transform: translateY(-570px)
     }
   }
+
+  @keyframes drive {
+    from {
+      transform: translateX(-100px)
+    }
+
+    to {
+      transform: translateX(767px)
+    }
+  }
+
 }
 
 @media (min-width: 992px) {
