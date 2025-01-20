@@ -559,6 +559,23 @@ html{
 
       
   }
+  @keyframes moveMoon {
+    0% {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+    65% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 1;
+    }
+  
+  
+    100% {
+      transform: translateY(-570px)
+    }
+  }
 }
 
 @media (min-width: 992px) {
